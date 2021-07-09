@@ -1,0 +1,9 @@
+sudo: required
+services: 
+  - docker
+
+  before install:
+    - docker build . -t gauri-sd/k8s-demo
+
+  script:
+    - docker run gauri-sd/k8s-demo
