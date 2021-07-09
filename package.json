@@ -1,0 +1,20 @@
+{
+  "name": "Assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "geoip-lite": "^1.4.2",
+    "ip": "^1.1.5",
+    "node-geocoder": "^3.27.0",
+    "node-iplocate": "^1.0.2",
+    "os": "^0.1.1"
+  }
+}

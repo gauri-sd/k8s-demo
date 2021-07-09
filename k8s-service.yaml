@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: k8s
+spec:
+  selector:
+    app: k8s
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
+  type: LoadBalancer
